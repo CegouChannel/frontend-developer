@@ -1,0 +1,194 @@
+/* reset styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset styles */
+
+.wrapper {
+  background-color: #e9e9e3;
+  height: 79.8125vw;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+}
+
+.menu_block{
+    padding-top: 7.5vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu_list {
+  width: 42%;
+}
+
+.menu_list > p {
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125vw;
+  color: #6f6f64;
+}
+
+.menu_list > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.8125vw;
+  color: #6f6f64;
+  margin-top: 1.06vw;
+  margin-bottom: 4.625vw;
+}
+
+.change_buttons > button {
+  height: 3.625vw;
+  width: 33.1875vw;
+  border: 2px solid #6f6f64;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  text-align: center;
+  margin-bottom: 0.75vw;
+  transition: .5s;
+}
+
+.active{
+    background: #6F6F64;
+    color: #FFFFFF;
+}
+
+.menu{
+    width: 50%;
+    overflow: hidden;
+    height: 64.8125vw;
+}
+
+.menu>img{
+    width: 100%;
+    height: 100%;
+}
